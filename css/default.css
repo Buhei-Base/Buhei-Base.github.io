@@ -1,0 +1,158 @@
+header {
+  padding-top    : 20px;
+  padding-bottom : 5px;
+  padding-left   : 5px;
+  padding-right  : 5px;
+}
+  
+main {
+  padding-top    : 5px;
+  padding-bottom : 5px;
+  padding-left   : 5%;
+  padding-right  : 5%;
+}
+footer{
+  padding-top    : 5px;
+  padding-bottom : 20px;
+  padding-left   : 5%;
+  padding-right  : 5%;
+}
+
+header .Corporation {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}    
+
+header>.Corporation>* {
+  grid-column-start: 2;
+}
+
+header>.Corporation>.MarkImage {
+  grid-column-start: 1;
+  grid-column-end  : 2;
+  grid-row-start   : 1;
+  grid-row-end     : 3;
+}
+
+.MenuBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-inline: unset;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 2em;
+
+}
+.MenuBox2{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.MenuBox button {
+   background-color: buttonface;
+   width : auto;
+   text-align : center;
+
+   border-width: 2px;
+   border-style: outset;
+   border-color: buttonborder;
+   border-image: initial;
+   border-radius: 5px;
+   
+   margin-left : 1em;
+   margin-right: 1em;
+}
+
+
+#TopImage {
+  width : 100%;
+  text-align : center;
+}
+#TopImage > img{
+ width  : 100%;
+ margin-top    : 10px;
+ margin-bottom : 10px;
+}
+
+.MarkImage>img {
+  width : 50px;
+}
+
+.Service {
+ display : grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.Service > div {
+   margin : 1em 0 1em 0;
+   padding : 1em;
+   border-width: 2px;
+   border-style: outset;
+   border-color: buttonborder;
+   border-image: initial;
+   border-radius: 5px;
+  
+}
+.Service > div:nth-child(obb) {
+   margin : 1em 0.5em 1em 0;
+}
+.Service > div:nth-child(even) {
+   margin : 1em 0 1em 0.5em;
+}
+.Service > div .onerow{
+   margin : 1em 0 1em 0;
+}
+
+.Service .caption {
+  text-align : center;
+}
+
+.Service > div:nth-child(2n+1){
+   margin : 1em .5em 1em 0;
+}
+.Service > div:nth-child(even){
+   margin : 1em 0 1em .5em;
+}
+
+.Service > div.onerow {
+   margin : 1em 0 1em 0;
+}
+
+.Infomation>.gridbox {
+ display : grid;
+ grid-template-columns: 1fr 2fr;
+ margin: 0.5em 0 0.5em 0;
+}
+
+.Service .caption {
+  font-size : 1.5em;
+}
+.explanation{
+}
+
+.pagetitle{
+	display : none;
+}
+.pagetitle.active{
+	display : block;
+
+  text-align: center;
+  font-size: 1.5em;
+  padding: 8px;
+
+
+}
+@media only screen and (max-device-width: 480px) {
+  .MenuBox {
+    grid-template-columns: 1fr;
+  }
+  .Service {
+    grid-template-columns: 1fr;
+  }
+  .Service > div:nth-child(2n+1) {
+    margin : 1em 0em 1em 0em;
+  }
+  .Service > div:nth-child(even) {
+    margin : 1em 0em 1em 0em;
+  }
+}

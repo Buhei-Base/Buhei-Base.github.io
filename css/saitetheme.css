@@ -1,0 +1,48 @@
+// Type 11
+html.type11{
+  font-family: "ヒラギノ明朝";
+}
+body.type11{
+  background-color: #FFFFFF;
+  color : #blcak;
+}
+header.type11,
+footer.type11{
+  background-color: #3a3c4c;
+  color : #FFFFFF;
+}
+.Service > div.type11{
+  background-color: #3a3c4c;
+  color : #FFFFFF;
+}
+.Menu.type11{
+}
+.Menu-Group-Item-Link.type11{
+  background-color: #3a3c4c;
+  color : #FFFFFF;
+}
+
+// Type 12
+
+html.type12{
+  font-size: 24px;
+}
+body.type12{
+  background-color: #d2ddf1;
+  color : #blcak;
+}
+header.type12,
+footer.type12{
+}
+.Service > div.type12{
+  background-color: #FFFFFF;
+  color : #000000;
+}
+
+.Menu.type12{
+  background-color: #d2ddf1;
+}
+.Menu-Group-Item-Link.type12{
+  background-color: #D8D6DE;
+  color : #000000;
+}

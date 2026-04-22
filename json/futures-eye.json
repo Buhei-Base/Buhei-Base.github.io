@@ -1,0 +1,42 @@
+{
+     "Corporation" : {
+                       "Name"           : "株式会社フューチャーズ・アイ"
+     ,                 "representative" : "代表取締役社長　今関　朗"
+     ,                 "PostNo"         : "〒　261-0023"
+     ,                 "Address"        : "千葉県千葉市美浜区中瀬１－３\n幕張テクノガーデンCB棟３階MBP"
+     ,                 "TelNo"          : "043-296-2370"
+     ,                 "FaxNo"          : "043-296-8881"
+     ,                 "MarkImage"      : ""
+     }
+,    "TopPage" : {
+                    "TopImageURL" : "./img/futures-eye/feyeTop.jpg"
+     }
+,    "ServicePage" : [
+                          {
+                            "caption"     : "未来を見据える．．．"
+                          , "image"       : "http://futures-eye.jp/img/President.png"
+                          , "explanation" : "私たちは、お客様のシステム開発を手がける上で、<br>お客様の新しい未来像を一緒に作り出せたらと考えております。"
+                          }
+     ]
+,    "InfomationPage" : [
+                          {
+                            "caption"     : "受付時間"       , "explanation" : "月～金 09時～18時<br>土　　9時～12時"
+                          }
+                        , {
+                            "caption"     : "設立"           , "explanation" : "２０１２年１０月"
+                          }
+                        , {
+                            "caption"     : "事業内容"       , "explanation" : "コンピュータのソフトウェアおよびシステムの企画、開発、販売、保守および管理<br>インターネットのホームページ制作<br>コンピュータ及びその関連機器の組立、修理並びに保守サービス<br>上記に附帯または関連する一切の業務"
+                          }
+                        , {
+                            "caption"     : "資本金"         , "explanation" : "３，０００，０００円"
+                          }
+                        , {
+                            "caption"     : "従業員数"       , "explanation" : "８人"
+                          }
+                        , {
+                            "caption"     : "主要取引先"     , "explanation" : "株式会社ウェザーニューズ<br>株式会社オークネット<br>ＰＣＩソリューションズ株式会社<br>日本アクティ・システムズ株式会社<br>株式会社エム・デー・ビー<br>株式会社ストランザ"
+                          }
+     ]
+     
+}

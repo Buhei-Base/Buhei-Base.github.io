@@ -1,0 +1,69 @@
+{
+     "Corporation" : {
+                       "Name"           : "いろはにほへと事務所"
+     ,                 "representative" : "いろはに　たろう"
+     ,                 "PostNo"         : "〒　111-01"
+     ,                 "Address"        : "東京都世田谷区1丁目1番地"
+     ,                 "TelNo"          : "03-1234-7890"
+     ,                 "FaxNo"          : "03-4321-7890"
+     ,                 "MarkImage"      : "./img/10255/10255/10255.png"
+     }
+,    "TopPage" : {
+                    "TopImageURL" : "./img/1652231_m.jpg"
+     }
+,    "ServicePage" : [
+                          {
+                            "caption"     : "ServicePage１ caption"
+                          , "image"       : ""
+                          , "explanation" : "アクセスを集めるのか、見込み客を説得するのか、ブランディングするのか。言い換えれば、ホームページでの「成果」というのは人それぞれ。あなたが何を目指すのか、そのために何が必要なのかをトータルで考え、その目的に合わせてホームページを制作することが大切です。"
+                          }
+                       ,  {
+                            "caption"     : "ServicePage２ caption"
+                          , "image"       : ""
+                          , "explanation" : "ServicePage２ explanation"
+                          }
+                       ,  {
+                            "caption"     : "ServicePage３ caption"
+                          , "image"       : ""
+                          , "explanation" : "ServicePage３ explanation"
+                          }
+                       ,  {
+                            "caption"     : "ServicePage４ caption"
+                          , "image"       : ""
+                          , "explanation" : "ServicePage４ explanation"
+                          }
+     ]
+,    "InfomationPage" : [
+                          {
+                            "caption"     : "受付時間"       , "explanation" : "月～金 09時～18時<br>土　　9時～12時"
+                          }
+                        , {
+                            "caption"     : "設立"           , "explanation" : "令和５年４月１日"
+                          }
+                        , {
+                            "caption"     : "事業内容"       , "explanation" : ""
+                          }
+                        , {
+                            "caption"     : "資本金"         , "explanation" : "１０００円"
+                          }
+                        , {
+                            "caption"     : "従業員数"       , "explanation" : "１人"
+                          }
+                        , {
+                            "caption"     : "売上高"         , "explanation" : "１円"
+                          }
+                        , {
+                            "caption"     : "主要取引先"     , "explanation" : "国、自治体"
+                          }
+                        , {
+                            "caption"     : "取引銀行"       , "explanation" : "いろはに銀行"
+                          }
+                        , {
+                            "caption"     : "許可・登録・免許"       , "explanation" : ""
+                          }
+                       ,  {
+                            "caption"     : "適格請求書事業者登録番号"   , "explanation" : "T1234567890123"
+                          }
+     ]
+     
+}

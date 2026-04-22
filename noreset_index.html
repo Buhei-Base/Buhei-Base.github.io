@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+<!--
+    <link media="screen" href="./css/reset_destle.css" rel="stylesheet" type="text/css">
+-->
+    <link media="screen" href="./css/default.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="./etc/CorporationInfo.js"></script>
+    <script src="./js/CorporationInfoset.js"></script>
+  </head>
+  <body>
+    <header>
+     <div class='Corporation'>
+       <div class="MarkImage"></div>
+       <div class="Name"></div>
+       <div class="Address"></div>
+<!--
+       <div class="PostNo"></div>
+       <div class="TelNo"></div>
+       <div class="FaxNo"></div>
+-->
+     </div>
+    </header>
+    <menu class='MenuBox'>
+      <button type="button" onclick="TopPage()"       >ＴＯＰ</button>
+      <button type="button" onclick="ServicePage()"   >業務内容</button>
+      <button type="button" onclick="InfomationPage()">会社概要</button>
+    </menu>
+    <main>
+      <div id='TopImage' class='TopImage'>
+      </div>
+      <div id='ServicePage'>
+        <div class='Service'>
+        </div>
+      </div>
+      <div id='InfomationPage'>
+        <div class='Infomation'>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class='Corporation'>
+        <div class="Name"></div>
+        <div class="PostNo"></div>
+        <div class="Address"></div>
+        <div class="TelNo"></div>
+        <div class="FaxNo"></div>
+      </div>
+    </footer>
+  </body>
+</html>
